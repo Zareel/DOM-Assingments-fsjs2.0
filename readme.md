@@ -1,3 +1,5 @@
+# Assignment 1
+
 # Task1
 
 ```javascript
@@ -40,10 +42,10 @@ btnDiv.appendChild(button);
 button.textContent = "Support Me";
 ```
 
-# Assignment 2 Task 2
+# Assignment 2
 
 ```javaScript
-//todo Task 2
+//todo Task
 let accordianWrapper = document.querySelector(".accordian-wrapper");
 let accordianDiv = document.querySelector(".accordian");
 let div = document.createElement("div");
@@ -71,7 +73,7 @@ accordian.forEach((element) => {
 });
 ```
 
-# Assignment 3 Task 1
+# Assignment 3
 
 ```javaScript
 let enterNameLeft = document.querySelector(".enterName");
@@ -91,6 +93,24 @@ userEmail.placeholder = "fsjs@iNeuron.ai";
 
 let userMessage = document.querySelector(".userMessage");
 userMessage.placeholder = "Hello World";
+```
+
+# Assignment 4
+
+```javaScript
+let barbarian = document.querySelector(".clash-card__unit-stats--barbarian");
+barbarian.style.backgroundColor = "yellow";
+
+let archer = document.querySelector(".clash-card__unit-stats--archer");
+archer.style.backgroundColor = "purple";
+
+let giant = document.querySelector(".clash-card__unit-stats--giant");
+giant.style.backgroundColor = "orange";
+
+let goblin = document.querySelector(".clash-card__unit-stats--goblin");
+goblin.style.backgroundColor = "green";
+
+
 ```
 
 # Assingment 5
