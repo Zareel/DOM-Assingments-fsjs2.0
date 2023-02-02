@@ -157,3 +157,59 @@ tagsContainer.appendChild(a);
 a.href = "#";
 a.textContent = "Chinese (7)";
 ```
+
+# Assignment 6
+
+```javascript
+let logo = document.querySelector(".logo");
+logo.src = "./assets/ineuron-logo.png";
+
+let appPrice = document.querySelector(".app_price span");
+appPrice.innerText = "$10";
+```
+
+# Assignment 7
+
+```javascript
+let arr = document.querySelector(".main__languages").children;
+let [span, br, ...rest] = arr;
+for (let i = 1; i < arr.length; i++) {
+  arr[i].remove();
+}
+
+let input = (document.querySelector(".main__form-input").value =
+  "Courses offered");
+
+let submitForm = document.querySelector(".main__form-btn");
+submitForm.submit();
+```
+
+# Assignment 8
+
+```javascript
+let aside = document.querySelector(".first-row .col-lg-4");
+let hr = document.createElement("hr");
+aside.appendChild(hr);
+hr.className = "hr-line";
+
+let h2 = document.createElement("h2");
+aside.appendChild(h2);
+h2.className = "new-head";
+h2.textContent = "This is my custom heading";
+
+let bars = document.querySelector(".navbar-toggler-icon");
+let menu = document.querySelector("#navbarTogglerDemo01");
+bars.addEventListener("click", () => {
+  menu.style.display = "block";
+});
+```
+
+# Assignment 9
+
+```javascript
+let title = document.querySelector(".caption .title");
+title.style.color = "red";
+
+let btn = document.querySelector(".add-to-cart");
+btn.style.backgroundColor = "red";
+```
