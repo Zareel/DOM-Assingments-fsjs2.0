@@ -110,6 +110,10 @@ giant.style.backgroundColor = "orange";
 let goblin = document.querySelector(".clash-card__unit-stats--goblin");
 goblin.style.backgroundColor = "green";
 
+let wizrd = document.querySelector(".clash-card__unit-stats--wizard");
+wizrd.style.backgroundColor = "blue";
+
+
 
 ```
 
